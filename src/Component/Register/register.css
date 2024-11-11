@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    /* font-weight: 450px; */
+    /* font-size: 16px; */
+
+
+
+ }
+
+.card{
+     font-size: 16px; 
+    white-space: nowrap;
+
+
+    
+    /* width: 900px;
+    margin-left: 300px !important; */
+} 
+
+ .registerDetailh3{
+    /* width: 220px; */
+    background: white;
+    position: absolute;
+    top: -16px;
+    padding: 0px 10px;
+    color: #0d6efd;
+}
+.trustedDetail{
+    background: white;
+    position: absolute;
+    top: -16px;
+    padding: 0px 10px;
+    color: #0d6efd;
+    
+}
+h2{
+    color: #0d6efd;
+
+}
+
+::placeholder {
+    color: #a0a0a0 !important; 
+    opacity: 1; /* Ensures color shows consistently across browsers */
+    font-size: 14px;
+}
+.select-light  {
+    color: #a0a0a0 !important; /* Light gray color */
+}
+ 
+ .trusted_Details  {
+    background-color: #fff;
+    border: 2px solid #f0f0f0 !important;
+    border-radius: 4px;
+    position: relative;
+}
+.trusted_Details  table {
+    border: 1px solid #f0f0f0 !important;
+}
+.trusted_Details  table th{
+padding: 14px !important;
+vertical-align: middle;
+white-space: nowrap;
+}
+.trusted_Details  table td { 
+padding: 15px !important;
+white-space: nowrap;
+
+}
+
+ 
+
+/* .trusted_Details  .trustedDetails_Headerbutton{
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+} */
+ /* button style ..... */
+.trusted_Details  button{
+    border-radius: 70px;
+    background-color: #09e5ab;
+    border: 1px solid #09e5ab;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    /* margin-left: 950px; */
+}
+.trusted_Details  h5{
+    white-space: nowrap;
+    }
+    
+ @media screen and (max-width:370px) {
+    .trusted_Details  .medicalDetails_Headerbutton h5 {
+    font-size: 14px !important;
+    }
+    .trusted_Details  .medicalDetails_Headerbutton button {
+        font-size: 12px !important;
+    }
+
+ }   
